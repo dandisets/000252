@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000252
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -9,29 +10,83 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: 'Guan, Charles (2022) PPC_Finger_RL: human posterior parietal cortex recordings
-  during attempted finger movements of right and left hands (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000252/draft'
+citation: 'Guan, Charles; Aflalo, Tyson; Kadlec, Kelly; Gamez, Jorge (2022) PPC_Finger_RL:
+  human posterior parietal cortex recordings during attempted finger movements of
+  right and left hands (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000252/draft'
 contributor:
-- affiliation: []
-  email: charlesguan94@gmail.com
+- affiliation:
+  - identifier: https://ror.org/05dxps055
+    name: California Institute of Technology
+    schemaKey: Affiliation
+  email: cguan@caltech.edu
+  identifier: 0000-0002-8040-8844
   includeInCitation: true
   name: Guan, Charles
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05dxps055
+    name: California Institute of Technology
+    schemaKey: Affiliation
+  email: taflalo@caltech.edu
+  identifier: 0000-0002-0101-2455
+  includeInCitation: true
+  name: Aflalo, Tyson
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05dxps055
+    name: California Institute of Technology
+    schemaKey: Affiliation
+  email: kkadlec@caltech.edu
+  identifier: 0000-0002-8765-7253
+  includeInCitation: true
+  name: Kadlec, Kelly
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05dxps055
+    name: California Institute of Technology
+    schemaKey: Affiliation
+  email: jgamez@caltech.edu
+  includeInCitation: true
+  name: Gamez, Jorge
+  roleName:
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2022-05-29T15:58:08.867753+00:00'
 description: This dataset contains single-neuron recordings from the left posterior
   parietal cortex (PPC) of two tetraplegic human participants as they attempted individual
   finger movements.
+ethicsApproval: []
 id: DANDI:000252/draft
 identifier: DANDI:000252
+keywords:
+- PPC
+- human
+- finger
+- MC
+- posterior parietal cortex
+- motor cortex
+- ipsilateral
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000252/versions/draft/assets/
 name: 'PPC_Finger_RL: human posterior parietal cortex recordings during attempted
   finger movements of right and left hands'
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
+studyTarget:
+- Enable neural control of contralateral/ipsilateral prosthetic fingers for participants
+  with paralysis.
 url: https://dandiarchive.org/dandiset/000252/draft
 version: draft
+wasGeneratedBy: []
