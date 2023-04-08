@@ -78,7 +78,23 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
+- awardNumber: UG1EY032039, R01EY015545
+  contactPoint: []
+  identifier: https://ror.org/03wkg3b53
+  includeInCitation: false
+  name: NIH National Eye Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nei.nih.gov/
+- contactPoint: []
+  includeInCitation: false
+  name: T&C Chen Brain-Machine Interface Center
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2022-05-29T15:58:08.867753+00:00'
+datePublished: '2023-04-08T22:07:52.050129+00:00'
 description: This dataset contains single-neuron recordings from two tetraplegic human
   participants as they attempted individual finger movements. One participant had
   an electrode array implanted in the left posterior parietal cortex (PPC) at the
@@ -116,6 +132,18 @@ manifestLocation:
 name: 'Finger_RL: human intracortical recordings during attempted finger movements
   of right and left hands'
 protocol: []
+publishedBy:
+  endDate: '2023-04-08T22:07:52.050129+00:00'
+  id: urn:uuid:43244b2b-04dc-4e52-9cf0-9de0c1ca15e7
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-04-08T22:07:52.050129+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:3d7683e0-b008-4ba5-b1f6-82741c7de251
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 'https://doi.org/10.1101/2022.12.07.22283227 '
   name: Compositional coding of individual finger movements in human posterior parietal
@@ -139,5 +167,4 @@ studyTarget:
   with paralysis.
 url: https://dandiarchive.org/dandiset/000252/draft
 version: draft
-wasGeneratedBy:
-- {}
+wasGeneratedBy: []
