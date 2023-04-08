@@ -10,9 +10,9 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: 'Guan, Charles; Aflalo, Tyson; Kadlec, Kelly; Gamez, Jorge (2022) PPC_Finger_RL:
-  human posterior parietal cortex recordings during attempted finger movements of
-  right and left hands (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000252/draft'
+citation: 'Guan, Charles; Aflalo, Tyson; Kadlec, Kelly; Gamez, Jorge (2023) Finger_RL:
+  human intracortical recordings during attempted finger movements of right and left
+  hands (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000252/draft'
 contributor:
 - affiliation:
   - identifier: https://ror.org/05dxps055
@@ -59,9 +59,13 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2022-05-29T15:58:08.867753+00:00'
-description: This dataset contains single-neuron recordings from the left posterior
-  parietal cortex (PPC) of two tetraplegic human participants as they attempted individual
-  finger movements.
+description: This dataset contains single-neuron recordings from two tetraplegic human
+  participants as they attempted individual finger movements. One participant had
+  an electrode array implanted in the left posterior parietal cortex (PPC) at the
+  junction of the postcentral and intraparietal sulci (PC-IP). The other participant
+  had one electrode array implanted in the hand knob of the left motor cortex (MC)
+  and one electrode array implanted in the superior parietal lobule (SPL) of the left
+  PPC.
 ethicsApproval: []
 id: DANDI:000252/draft
 identifier: DANDI:000252
@@ -77,8 +81,8 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000252/versions/draft/assets/
-name: 'PPC_Finger_RL: human posterior parietal cortex recordings during attempted
-  finger movements of right and left hands'
+name: 'Finger_RL: human intracortical recordings during attempted finger movements
+  of right and left hands'
 protocol: []
 relatedResource: []
 repository: https://dandiarchive.org
