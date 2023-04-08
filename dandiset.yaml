@@ -7,9 +7,29 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 38128728
+  numberOfFiles: 12
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectrodeGroup
+  - Units
 citation: 'Guan, Charles; Aflalo, Tyson; Kadlec, Kelly; Gamez, Jorge (2023) Finger_RL:
   human intracortical recordings during attempted finger movements of right and left
   hands (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000252/draft'
@@ -66,7 +86,19 @@ description: This dataset contains single-neuron recordings from two tetraplegic
   had one electrode array implanted in the hand knob of the left motor cortex (MC)
   and one electrode array implanted in the superior parietal lobule (SPL) of the left
   PPC.
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    email: irb@caltech.edu
+    schemaKey: ContactPoint
+    url: https://researchcompliance.caltech.edu/committees/institutional-review-board
+  identifier: 18-0401
+  schemaKey: EthicsApproval
+- contactPoint:
+    email: ohrpp@research.ucla.edu
+    schemaKey: ContactPoint
+    url: https://ohrpp.research.ucla.edu/
+  identifier: 13-000576
+  schemaKey: EthicsApproval
 id: DANDI:000252/draft
 identifier: DANDI:000252
 keywords:
@@ -84,7 +116,21 @@ manifestLocation:
 name: 'Finger_RL: human intracortical recordings during attempted finger movements
   of right and left hands'
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: 'https://doi.org/10.1101/2022.12.07.22283227 '
+  name: Compositional coding of individual finger movements in human posterior parietal
+    cortex and motor cortex enables ten-finger decoding
+  relation: dcite:IsDescribedBy
+  repository: medRxiv
+  schemaKey: Resource
+  url: https://www.medrxiv.org/content/10.1101/2022.12.07.22283227
+- identifier: DANDI:000147
+  name: 'PPC_Finger: human posterior parietal cortex recordings during attempted finger
+    movements'
+  relation: dcite:Continues
+  repository: 'DANDI: Distributed Archives for Neurophysiology Data Integration'
+  schemaKey: Resource
+  url: https://doi.org/10.48324/dandi.000147/0.221122.2256
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
@@ -93,4 +139,5 @@ studyTarget:
   with paralysis.
 url: https://dandiarchive.org/dandiset/000252/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- {}
