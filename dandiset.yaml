@@ -32,7 +32,7 @@ assetsSummary:
   - Units
 citation: 'Guan, Charles; Aflalo, Tyson; Kadlec, Kelly; Gamez, Jorge (2023) Finger_RL:
   human intracortical recordings during attempted finger movements of right and left
-  hands (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000252/draft'
+  hands (Version 0.230408.2207) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000252/0.230408.2207'
 contributor:
 - affiliation:
   - identifier: https://ror.org/05dxps055
@@ -102,6 +102,7 @@ description: This dataset contains single-neuron recordings from two tetraplegic
   had one electrode array implanted in the hand knob of the left motor cortex (MC)
   and one electrode array implanted in the superior parietal lobule (SPL) of the left
   PPC.
+doi: 10.48324/dandi.000252/0.230408.2207
 ethicsApproval:
 - contactPoint:
     email: irb@caltech.edu
@@ -115,7 +116,7 @@ ethicsApproval:
     url: https://ohrpp.research.ucla.edu/
   identifier: 13-000576
   schemaKey: EthicsApproval
-id: DANDI:000252/draft
+id: DANDI:000252/0.230408.2207
 identifier: DANDI:000252
 keywords:
 - PPC
@@ -128,7 +129,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000252/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000252/0.230408.2207/assets.yaml
 name: 'Finger_RL: human intracortical recordings during attempted finger movements
   of right and left hands'
 protocol: []
@@ -165,6 +166,6 @@ schemaVersion: 0.6.3
 studyTarget:
 - Enable neural control of contralateral/ipsilateral prosthetic fingers for participants
   with paralysis.
-url: https://dandiarchive.org/dandiset/000252/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000252/0.230408.2207
+version: 0.230408.2207
 wasGeneratedBy: []
